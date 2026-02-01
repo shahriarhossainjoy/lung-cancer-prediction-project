@@ -83,7 +83,6 @@ def predict_cancer(data: LungCancerInput):
         prediction = model.predict(features)[0]
         
 
-
         result_text = "LUNG CANCER DETECTED" if prediction == 1 else "NO LUNG CANCER DETECTED"
 
         return {

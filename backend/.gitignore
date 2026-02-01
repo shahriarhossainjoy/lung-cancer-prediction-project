@@ -1,0 +1,15 @@
+# Virtual Environment (এটি পাঠানো যাবে না)
+myenv/
+venv/
+env/
+
+# Python Cache files (অপ্রয়োজনীয় ফাইল)
+__pycache__/
+*.pyc
+
+# Environment Variables (গোপন পাসওয়ার্ড বা কী থাকলে)
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
